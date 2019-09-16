@@ -1,0 +1,60 @@
+/**
+* the value of CSS properties can be modified in the CSS file only
+*/
+
+.a-great-style {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    background-color: red !important;
+}
+
+
+/**
+* background color html page 
+*/
+
+body {
+    background-color: yellow;
+}
+
+
+/**
+* second paragraph background color 
+*/
+
+.second-paragraph {
+    font-size: 27px;
+    background-color: white;
+    color: black;
+}
+
+.first-paragraph {
+    font-size: 21px;
+    background-color: black;
+    color: white;
+}
+
+
+/**
+* Word blood second paragraph, color red and italic 
+*/
+
+.blood {
+    color: red;
+    font-style: italic;
+}
+
+.left-bordered-and-big {
+    float: left;
+    border: solid;
+    border-width: 1px;
+    width: 60%;
+    border-color: black;
+}
+
+.right-bordered-and-small {
+    float: right;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 20px;
+}
