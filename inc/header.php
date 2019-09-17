@@ -1,10 +1,12 @@
-<!-- CSS -->
-
-<!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-
-<link rel="stylesheet" href="../css/snow-white.css">
-<link rel="stylesheet" href="../css/codingpedia.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+<header>
+    <?php // include '/var/www/html/inc/navbar.html' 
+    ?>
+    <h1>Bienvenue
+        <!-- That will became a php include to put it on every pages -->
+        <span>
+            <a href="../index.php">Home</a>
+            <a href="php.php">PHP</a>
+            <a href="sql.php">SQL</a>
+        </span>
+    </h1>
+</header>
